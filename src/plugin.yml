@@ -1,0 +1,8 @@
+name: BukkitGUI-InventoryAPI
+main: net.spideynn.bukkit.invapi_json.Main
+author: Spideynn
+version: 0.2_1.7.10-BukkitAPI
+commands:
+    bukkitguihelp:
+        description: Console only API for BukkitGUI for getting inventory contents for a player.
+        usage: /<command> inventory <playername>
