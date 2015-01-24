@@ -31,7 +31,7 @@ public class Main extends JavaPlugin {
 					args[1])).getInventory();
 			JSONObject mainInv = new JSONObject();
 
-            for (int i=39; i>0; i--) {
+            for (int i=39; i >= 0; i--) {
                 ItemStack stack = inventory.getItem(i);
                 JSONObject inv = new JSONObject();
                 inv.put("id",Integer.valueOf(i));
